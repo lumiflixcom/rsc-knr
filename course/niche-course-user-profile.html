@@ -66,8 +66,6 @@
 <div id="wrapper" class="clearfix">
 
 
-
-
 	<header id="header" class="sticky-style-2">
 
 		<div class="container clearfix">
@@ -82,8 +80,14 @@
 				</button>
 				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="niche-course-index.html">Home</a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Home
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
+								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
+							</div>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -108,19 +112,13 @@
 						<li class="nav-item">
 							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
 						</li>
-						<li class="nav-item">
-							<a href="niche-course-about.html" class="nav-link">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="niche-course-contact.html" class="nav-link">Contact</a>
-						</li>
 					</ul>
 				</div>
 			</nav>
 
 		</div>
 
-		<div id="header-wrap" class="bg-light">
+		<div id="header-wrap" class="bg-white">
 
 			<!-- Primary Navigation
             ============================================= -->
@@ -208,8 +206,12 @@
 
 					<!-- Top Cart
                     ============================================= -->
-					<div class="header-buttons side-panel-trigger">
-						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="alignleft img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-13px !important;max-width: 45px;">Hello, John Doe</a>
+					<div class="header-buttons side-panel-trigger" id="top-search">
+						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-9px !important; max-width: 35px;"></a>
+						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:48px"  class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
+						<form action="#" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
+						</form>
 					</div>
 				</div>
 
@@ -218,6 +220,7 @@
 		</div>
 
 	</header><!-- #header end -->
+
 
 
 	<section id="content">
@@ -255,7 +258,6 @@
 										<li><a href="#tab-feeds"><i class="icon-line-clipboard"></i> <span class="d-none  d-sm-none  d-lg-inline-block">Course</span></a></li>
 										<li><a href="#tab-posts"><i class="icon-line-heart"></i> <span class="d-none  d-sm-none  d-lg-inline-block">Whistlist</span></a></li>
 										<li><a href="#tab-replies"><i class="icon-line2-envelope"></i> <span class="d-none  d-sm-none  d-lg-inline-block">Messages</span></a></li>
-										<li><a href="#tab-connections"><i class="icon-line2-credit-card"></i> <span class="d-none  d-sm-none  d-lg-inline-block">Payment</span></a></li>
 									</ul>
 
 									<div class="tab-container">
@@ -525,111 +527,6 @@
 												</li>
 
 											</ol>
-
-										</div>
-										<div class="tab-content clearfix" id="tab-connections">
-
-											<div class="row topmargin-sm">
-												<div class="col-lg-3 col-md-6 bottommargin">
-
-													<div class="team">
-														<div class="team-image">
-															<img src="images/team/3.jpg" alt="John Doe">
-														</div>
-														<div class="team-desc">
-															<div class="team-title"><h4>John Doe</h4><span>CEO</span></div>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-																<i class="icon-facebook"></i>
-																<i class="icon-facebook"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-																<i class="icon-twitter"></i>
-																<i class="icon-twitter"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-																<i class="icon-gplus"></i>
-																<i class="icon-gplus"></i>
-															</a>
-														</div>
-													</div>
-
-												</div>
-
-												<div class="col-lg-3 col-md-6 bottommargin">
-
-													<div class="team">
-														<div class="team-image">
-															<img src="images/team/2.jpg" alt="Josh Clark">
-														</div>
-														<div class="team-desc">
-															<div class="team-title"><h4>Josh Clark</h4><span>Co-Founder</span></div>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-																<i class="icon-facebook"></i>
-																<i class="icon-facebook"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-																<i class="icon-twitter"></i>
-																<i class="icon-twitter"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-																<i class="icon-gplus"></i>
-																<i class="icon-gplus"></i>
-															</a>
-														</div>
-													</div>
-
-												</div>
-
-												<div class="col-lg-3 col-md-6 bottommargin">
-
-													<div class="team">
-														<div class="team-image">
-															<img src="images/team/8.jpg" alt="Mary Jane">
-														</div>
-														<div class="team-desc">
-															<div class="team-title"><h4>Mary Jane</h4><span>Sales</span></div>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-																<i class="icon-facebook"></i>
-																<i class="icon-facebook"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-																<i class="icon-twitter"></i>
-																<i class="icon-twitter"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-																<i class="icon-gplus"></i>
-																<i class="icon-gplus"></i>
-															</a>
-														</div>
-													</div>
-
-												</div>
-
-												<div class="col-lg-3 col-md-6">
-
-													<div class="team">
-														<div class="team-image">
-															<img src="images/team/4.jpg" alt="Nix Maxwell">
-														</div>
-														<div class="team-desc">
-															<div class="team-title"><h4>Nix Maxwell</h4><span>Support</span></div>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-facebook">
-																<i class="icon-facebook"></i>
-																<i class="icon-facebook"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-																<i class="icon-twitter"></i>
-																<i class="icon-twitter"></i>
-															</a>
-															<a href="#" class="social-icon inline-block si-small si-light si-rounded si-gplus">
-																<i class="icon-gplus"></i>
-																<i class="icon-gplus"></i>
-															</a>
-														</div>
-													</div>
-
-												</div>
-											</div>
 
 										</div>
 

@@ -1408,12 +1408,7 @@ body.stretched #header.full-header #primary-menu ul li.mega-menu .mega-menu-cont
 
 #logo + #primary-menu.style-2 { border-top: 0; }
 
-#primary-menu.style-2 > div #top-search,
-#primary-menu.style-2 > div #top-cart,
-#primary-menu.style-2 > div #side-panel-trigger {
-	margin-top: -1px;
-	margin-bottom: 35px;
-}
+
 
 body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.center > ul,
 body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.center > div {
@@ -1737,7 +1732,6 @@ body:not(.device-md):not(.device-sm):not(.device-xs) #primary-menu.style-2.cente
 #side-panel-trigger,
 #top-account {
 	float: right;
-	margin: 40px 0 40px 15px;
 }
 
 #top-cart { position: relative; }
@@ -5958,6 +5952,9 @@ body:not(.device-touch):not(.device-sm):not(.device-xs) .product-overlay a {
 }
 
 .sale-flash.out-of-stock { background-color: #777; }
+
+.bg-price {background-color:#007bfb !important}
+
 
 
 /* Shop - 3 Columns

@@ -96,8 +96,14 @@
 				</button>
 				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="niche-course-index.html">Home</a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Home
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
+								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
+							</div>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -122,19 +128,13 @@
 						<li class="nav-item">
 							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
 						</li>
-						<li class="nav-item">
-							<a href="niche-course-about.html" class="nav-link">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="niche-course-contact.html" class="nav-link">Contact</a>
-						</li>
 					</ul>
 				</div>
 			</nav>
 
 		</div>
 
-		<div id="header-wrap" class="bg-light">
+		<div id="header-wrap" class="bg-white">
 
 			<!-- Primary Navigation
             ============================================= -->
@@ -222,8 +222,12 @@
 
 					<!-- Top Cart
                     ============================================= -->
-					<div class="header-buttons side-panel-trigger">
-						<a href="#"  style="color:#333;" ><i class="icon-line2-user"></i> Sign In</a>
+					<div class="header-buttons side-panel-trigger" id="top-search">
+						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-9px !important; max-width: 35px;"></a>
+						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:48px"  class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
+						<form action="#" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
+						</form>
 					</div>
 				</div>
 

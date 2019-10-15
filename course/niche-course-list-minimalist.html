@@ -96,8 +96,14 @@
 				</button>
 				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active">
-							<a class="nav-link" href="niche-course-index.html">Home</a>
+						<li class="nav-item dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+								Home
+							</a>
+							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
+								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
+							</div>
 						</li>
 						<li class="nav-item dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -122,19 +128,13 @@
 						<li class="nav-item">
 							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
 						</li>
-						<li class="nav-item">
-							<a href="niche-course-about.html" class="nav-link">About</a>
-						</li>
-						<li class="nav-item">
-							<a href="niche-course-contact.html" class="nav-link">Contact</a>
-						</li>
 					</ul>
 				</div>
 			</nav>
 
 		</div>
 
-		<div id="header-wrap" class="bg-light">
+		<div id="header-wrap" class="bg-white">
 
 			<!-- Primary Navigation
             ============================================= -->
@@ -222,8 +222,12 @@
 
 					<!-- Top Cart
                     ============================================= -->
-					<div class="header-buttons side-panel-trigger">
-						<a href="#"  style="color:#333;" ><i class="icon-line2-user"></i> Sign In</a>
+					<div class="header-buttons side-panel-trigger" id="top-search">
+						<a href="#"  style="color:#333; font-size: 18px" ><i class="icon-user" class="rightmargin-sm"></i></a>
+						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:38px"  class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
+						<form action="#" method="get">
+							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
+						</form>
 					</div>
 				</div>
 
@@ -236,19 +240,19 @@
 
 
 
-	<div class="section nobg clearfix pt-4 pl-5 pr-5">
+	<div class="section mt-0 pt-md-5 pt-0">
 							<div class="container">
 
-								<div class="row mt-2">
+								<div class="row">
 
 								<div class="col-11">
-									<div class="heading-block nobottomborder mb-5">
+									<div class="heading-block nobottomborder pt-5 mb-5">
 										<h3>Course List</h3>
                                         <span>Development</span>
 									</div>
 								</div>
 
-								<div class="col-1">
+								<div class="col-1 pt-5">
 									<div class="pl-4">
 										<a href="#" class="text-dark d-none d-sm-inline-block d-sm-none d-md-inline-block d-md-none d-lg-inline-block align-right" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="icon-line-align-right" style="font-size:35px"></i></a>
 										<ul class="dropdown-menu dropdown-menu-right">
@@ -270,16 +274,14 @@
 									<!-- Course 1
                         ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 20</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l1.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">The Complete Android Developer Course for Beginer</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">Development</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$19.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half-full"></i> <span>4.7</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
@@ -287,16 +289,14 @@
 									<!-- Course 2
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 60</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l2.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">The Complete iOS App Development for Beginer</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">Development</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-warning">Free</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i> <span>4.9</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
@@ -305,49 +305,44 @@
 									<!-- Course 3
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-warning">Free</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l5.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">Python for Data Science and Machine Learning Bootcamp</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">Development</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-empty"></i> <span>4.1</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$23.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
-											</div>
+
 										</div>
 									</div>
 
 									<!-- Course 4
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 60</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l6.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">The Complete Cyber Security Course : Hackers Exposed!</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">IT & Software</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$21.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span>4.4</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
 									<!-- Course 5
                                                 ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-warning font-weight-bold">Free</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l5.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">AWS Certified Solutions Architect - Associate 2019</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">IT & Software</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$19.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
@@ -355,16 +350,14 @@
 									<!-- Course 6
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 60</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l6.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">After Effects CC 2019: Complete Course from Novice to Expert</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">Design</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$19.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
@@ -372,16 +365,14 @@
 									<!-- Course 7
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 60</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l3.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">The Complete Ethical Hacking Course: Beginner to Advanced</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">IT & Software</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$19.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
@@ -389,16 +380,14 @@
 									<!-- Course 8
                                     ============================================= -->
 									<div class="col-md-3 mb-5">
-										<div class="card course-card hover-effect border">
+										<div class="card course-card hover-effect noborder">
+											<div class="sale-flash bg-price font-weight-bold">$ 60</div>
 											<a href="niche-course-single.html"><img class="card-img-top" src="images/course/l1.jpg" alt="Card image cap"></a>
 											<div class="card-body">
 												<h4 class="card-title t700 mb-2"><a href="niche-course-single.html">Investing In Stocks The Complete Course for Beginer</a></h4>
 												<p class="mb-2 card-title-sub uppercase t400 ls1"><a href="#" class="text-black-50">Business</a></p>
-												<div class="rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
-											</div>
-											<div class="card-footer py-3 d-flex justify-content-between align-items-center bg-white text-muted">
-												<div class="badge alert-primary">$19.99</div>
-												<a href="#" class="text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
+												<div class="float-left rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i><i class="icon-star-empty"></i> <span>3.7</span></div>
+												<a href="#" class="float-right text-dark position-relative"><i class="icon-line2-users"></i> <span class="author-number">458</span></a>
 											</div>
 										</div>
 									</div>
