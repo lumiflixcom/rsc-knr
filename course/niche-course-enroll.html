@@ -20,9 +20,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 	<!-- Workspace Demo Specific Stylesheet -->
-	<link rel="stylesheet" href="css/colors.php" type="text/css" /> <!-- Theme Color -->
+	<link rel="stylesheet" href="css/colors.css" type="text/css" /> <!-- Theme Color -->
 	<link rel="stylesheet" href="css/fonts.css" type="text/css" /> <!-- Theme Font -->
 	<link rel="stylesheet" href="css/course.css" type="text/css" /> <!-- Theme CSS -->
+
+
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:200,300,400,400i,500,600,700%7CMerriweather:300,300i" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 	<!-- / -->
 
 	<!-- Document Title
@@ -42,30 +46,16 @@
 
 		<div class="widget clearfix">
 
-			<h4 class="t400 text-white">Login with Social</h4>
+			<a href="#"  style="color:#fff;" ><img src="images/userlog.jpg" class="alignleft img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-13px !important;max-width: 45px;">  Hello, Janne Doe</a>
 
-			<a href="#" class="button button-rounded t400 btn-block center si-colored noleftmargin si-facebook">Facebook</a>
-			<a href="#" class="button button-rounded t400 btn-block center si-colored noleftmargin si-gplus">Google</a>
 
 			<div class="line line-sm"></div>
 
-			<form id="login-form" name="login-form" class="nobottommargin" action="#" method="post">
-
-				<div class="col_full">
-					<label for="login-form-username" class="t400 text-white">Username:</label>
-					<input type="text" id="login-form-username" name="login-form-username" value="" class="form-control" />
-				</div>
-
-				<div class="col_full text-white">
-					<label for="login-form-password" class="t400 text-white">Password:</label>
-					<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control" />
-				</div>
-
-				<div class="col_full nobottommargin">
-					<button class="button button-rounded button-blue nomargin" id="login-form-submit" name="login-form-submit" value="login">Login</button>
-				</div>
-
-			</form>
+			<div class="list-group">
+				<a href="#" style="background-color:#24316b !important" class="list-group-item list-group-item-action text-white clearfix">Profile <i class="icon-line2-user float-right"></i></a>
+				<a href="#" style="background-color:#24316b !important" class="list-group-item list-group-item-action text-white clearfix">Settings <i class="icon-line-cog float-right"></i></a>
+				<a href="#" style="background-color:#24316b !important" class="list-group-item list-group-item-action text-white clearfix">Logout <i class="icon-line2-logout float-right"></i></a>
+			</div>
 
 
 		</div>
@@ -79,156 +69,31 @@
 ============================================= -->
 <div id="wrapper" class="clearfix">
 
+	<header id="header" class="sticky-style-2" style="height:70px">
 
 
-
-	<header id="header" class="sticky-style-2">
-
-		<div class="container clearfix">
-
-			<nav class="navbar navbar-expand-lg p-0 m-0">
-				<div id="logo">
-					<a href="niche-course-index.html" class="standard-logo" data-sticky-logo="images/logo-sticky.png"><img src="images/logo.png" alt="Kinara"></a>
-					<a href="niche-course-index.html" class="retina-logo" data-sticky-logo="images/logo-sticky@2x.png"><img src="images/logo@2x.png" alt="Kinara"></a>
-				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-line-menu"></span>
-				</button>
-				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Home
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
-								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Course
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-list-minimalist.html">Course List Minimalist</a>
-								<a class="dropdown-item" href="niche-course-list-modern.html">Course List Modern</a>
-								<a class="dropdown-item" href="niche-course-single.html">Course Single</a>
-								<a class="dropdown-item" href="niche-course-enroll.html">Course Enroll</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Members
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-user-profile.html">Profile</a>
-								<a class="dropdown-item" href="niche-course-login-page.html">Login Page</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-
-		</div>
-
-		<div id="header-wrap" class="bg-white">
+		<div id="header-wrap">
 
 			<!-- Primary Navigation
             ============================================= -->
-			<nav id="primary-menu" class="with-arrows style-2">
+			<nav id="primary-menu" class="style-2">
 
-				<div class="container clearfix">
+				<div class="pl-5 pr-5 clearfix">
+					<div id="logo" class="pl-3" style="height:70px; margin-top:-10px">
+						<a href="niche-course-index.html" class="standard-logo" data-sticky-logo="images/logo-sticky@2x.png"><img src="images/logo-sticky@2x.png" alt="Kinara" ></a>
+						<a href="niche-course-index.html" class="retina-logo" data-sticky-logo="images/logo-sticky@2x.png"><img src="images/logo-sticky@2x.png" alt="Kinara"></a>
+					</div>
 
-					<div id="primary-menu-trigger"><i class="icon-reorder"></i></div>
-
-					<ul>
-						<li><a href="#" class="pl-0"><div><i class="icon-line-grid"></i>Categories</div></a>
-							<ul>
-								<li><a href="#"><div><i class="icon-code1"></i>Development</div></a>
-									<ul>
-										<li><a href="#"><div>All Development</div></a></li>
-										<li><a href="#"><div>Web Development</div></a></li>
-										<li><a href="#"><div>Mobile Development</div></a></li>
-										<li><a href="#"><div>Game Development</div></a></li>
-										<li><a href="#"><div>Database</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-								<li><a href="#"><div><i class="icon-chart-bar1"></i>Business</div></a>
-									<ul>
-										<li><a href="#"><div>All Business</div></a></li>
-										<li><a href="#"><div>Entrepreneurship</div></a></li>
-										<li><a href="#"><div>Communication</div></a></li>
-										<li><a href="#"><div>Marketing</div></a></li>
-										<li><a href="#"><div>Strategy</div></a></li>
-										<li><a href="#"><div>Project Management</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-								<li><a href="#"><div><i class="icon-line2-briefcase"></i>Finance & Accounting</div></a>
-									<ul>
-										<li><a href="#"><div>All Finance & Accounting</div></a></li>
-										<li><a href="#"><div>Compliance</div></a></li>
-										<li><a href="#"><div>Economic</div></a></li>
-										<li><a href="#"><div>Cryptocurrency</div></a></li>
-										<li><a href="#"><div>Taxes</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-
-								<li><a href="#"><div><i class="icon-laptop1"></i>IT & Software</div></a>
-									<ul>
-										<li><a href="#"><div>All IT & Software Training</div></a>
-										<li><a href="#"><div>IT Certification</div></a></li>
-										<li><a href="#"><div>Network & Security</div></a></li>
-										<li><a href="#"><div>Hardware</div></a></li>
-										<li><a href="#"><div>Operating System</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-								<li><a href="#"><div><i class="icon-line2-note"></i>Personal Development</div></a>
-									<ul>
-										<li><a href="#"><div>All Personal Development</div></a>
-										<li><a href="#"><div>Personal Transformation</div></a></li>
-										<li><a href="#"><div>Leadership</div></a></li>
-										<li><a href="#"><div>Creativity</div></a></li>
-										<li><a href="#"><div>Influence</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-								<li><a href="#"><div><i class="icon-line2-layers"></i>Design</div></a>
-									<ul>
-										<li><a href="#"><div>All Designs</div></a>
-											<ul>
-												<li><a href="#"><div>Level 3</div></a></li>
-											</ul>
-										</li>
-										<li><a href="#"><div>Web Design</div></a></li>
-										<li><a href="#"><div>Game Design</div></a></li>
-										<li><a href="#"><div>Infoghraphic</div></a></li>
-										<li><a href="#"><div>Fashion</div></a></li>
-										<li><a href="#"><div>Interior</div></a></li>
-										<li><a href="#"><div>Others</div></a></li>
-									</ul>
-								</li>
-
-
-							</ul>
-						</li>
+					<ul style="margin-top:23px;">
+						<li class="d-none  d-sm-none  d-md-none d-lg-block"><span style="color:#333 !important;font-weight:bold;font-size:20px">PHP with Laravel for beginners - Become a Master in Laravel</span></li>
 					</ul>
 
 					<!-- Top Cart
                     ============================================= -->
-					<div class="header-buttons side-panel-trigger" id="top-search">
-						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-9px !important; max-width: 35px;"></a>
-						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:48px"  class="d-none d-sm-block d-sm-none d-md-block d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
-						<form action="#" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
-						</form>
+					<div class="header-buttons side-panel-trigger pl-3" id="top-search">
+						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="max-width: 35px;"></a>
 					</div>
+
 				</div>
 
 			</nav><!-- #primary-menu end -->
@@ -241,34 +106,29 @@
 	<div class="recipe-itmes p-0" style="overflow: visible;">
 		<div class="row align-items-stretch align-content-stretch no-gutters">
 			<div class="col-lg-9">
-				<div class="row no-gutters">
 
-					<div class="container">
-					<div class="section nobg clearfix pt-0 pl-5 pr-5">
-
+				<div class="section bg-grey clearfix pt-0 pl-5 pr-5">
 						<div class="container">
-							<div class="mb-0 pb-5">
-
-								<a href="#s" data-lightbox="iframe" class="play-video-blue position-relative pt-5">
-									<img src="images/video-bg.jpg" alt="Video Image" width="1200px" >
+							<div class="mb-0 pt-5 pb-5">
+								<a href="#" data-lightbox="iframe" class="play-video-blue position-relative pt-5">
+									<img src="images/video-bg.jpg" alt="Video Image" width="1100px" >
 									<i class="icon-play"></i>
 								</a>
-
 							</div>
+						</div>
+					</div>
 
-							<h3>PHP with Laravel for beginners - Become a Master in Laravel</h3>
-								<div class="postcontent nobottommargin clearfix">
-
+				<div class="content pt-5 pl-5 pr-5">
+				<div class="container">
+					<h3 class="d-lg-none">PHP with Laravel for beginners - Become a Master in Laravel</h3>
+					<div class="postcontent nobottommargin clearfix">
 								<div class="tabs tabs-bb clearfix ui-tabs ui-corner-all ui-widget ui-widget-content" id="tab-9">
-
 									<ul class="tab-nav clearfix ui-tabs-nav ui-corner-all ui-helper-reset ui-helper-clearfix ui-widget-header" role="tablist">
 										<li role="tab" tabindex="0" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab ui-tabs-active ui-state-active" aria-controls="tabs-33" aria-labelledby="ui-id-17" aria-selected="true" aria-expanded="true"><a href="#tabs-33" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-17">Overview</a></li>
 										<li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs-35" aria-labelledby="ui-id-19" aria-selected="false" aria-expanded="false"><a href="#tabs-34" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-19">Announcement</a></li>
 										<li role="tab" tabindex="-1" class="ui-tabs-tab ui-corner-top ui-state-default ui-tab" aria-controls="tabs-34" aria-labelledby="ui-id-18" aria-selected="false" aria-expanded="false"><a href="#tabs-35" role="presentation" tabindex="-1" class="ui-tabs-anchor" id="ui-id-18">Q & A</a></li>
 									</ul>
-
 									<div class="tab-container">
-
 										<div class="tab-content pt-4 clearfix ui-tabs-panel ui-corner-bottom ui-widget-content" id="tabs-33" aria-labelledby="ui-id-17" role="tabpanel" aria-hidden="false" style="">
 											<div class="card events-meta">
 												<div class="card-body">
@@ -291,27 +151,27 @@
 											<div class="list-group pt-4">
 												<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
 													<div class="d-flex w-100 justify-content-between">
-														<h4 class="mb-2">List group item heading</h4>
+														<h4 class="mb-2">New Lectures to Upgrade to 5.7 and 5.8 On Section 43</h4>
 														<small>Just now</small>
 													</div>
-													<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-													<small>Donec id elit non mi porta.</small>
+													<p class="mb-1">Hi ladies on Gentlemen, I just created some lectures where we update our CMS for Laravel versions 5.7 and 5.8 on section 43.</p>
+													<small>Instructor</small>
 												</a>
 												<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
 													<div class="d-flex w-100 justify-content-between">
-														<h4 class="mb-2">List group item heading</h4>
+														<h4 class="mb-2">New Videos Aded</h4>
 														<small class="text-muted">Sept 1, 2019</small>
 													</div>
-													<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-													<small class="text-muted">Donec id elit non mi porta.</small>
+													<p class="mb-1">Hi ladies on Gentlemen, I just added some vidoes.</p>
+													<small class="text-muted">Instructor</small>
 												</a>
 												<a href="#" class="list-group-item list-group-item-action flex-column align-items-start">
 													<div class="d-flex w-100 justify-content-between">
-														<h4 class="mb-2">List group item heading</h4>
-														<small class="text-muted">3 days ago</small>
+														<h4 class="mb-2">New Learning Material</h4>
+														<small class="text-muted">July 29, 2019</small>
 													</div>
-													<p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>
-													<small class="text-muted">Donec id elit non mi porta.</small>
+													<p class="mb-1">Hi ladies on Gentlemen, I just added some learning material.</p>
+													<small class="text-muted">Instructor.</small>
 												</a>
 											</div>
 										</div>
@@ -332,7 +192,7 @@
 																<div class="comment-author vcard">
 
 													<span class="comment-avatar clearfix">
-													<img alt='' src='http://0.gravatar.com/avatar/ad516503a11cd5ca435acc9bb6523536?s=60' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
+													<img alt='' src='images/userlog.jpg' class='avatar avatar-60 photo avatar-default' height='60' width='60' /></span>
 
 																</div>
 
@@ -340,9 +200,9 @@
 
 															<div class="comment-content clearfix">
 
-																<div class="comment-author">John Doe<span><a href="#" title="Permalink to this comment">April 24, 2012 at 10:46 am</a></span></div>
+																<div class="comment-author">Janne Doe<span><a href="#" title="Permalink to this comment">August 03, 2019</a></span></div>
 
-																<p>Donec sed odio dui. Nulla vitae elit libero, a pharetra augue. Nullam id dolor id nibh ultricies vehicula ut id elit. Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+																<p>Nulla vitae elit libero Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
 																<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
@@ -364,7 +224,7 @@
 																		<div class="comment-author vcard">
 
 															<span class="comment-avatar clearfix">
-															<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=40&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D40&amp;r=G' class='avatar avatar-40 photo' height='40' width='40' /></span>
+															<img alt='' src='images/instructor.jpg' class='avatar avatar-40 photo' height='40' width='40' /></span>
 
 																		</div>
 
@@ -372,9 +232,9 @@
 
 																	<div class="comment-content clearfix">
 
-																		<div class="comment-author"><a href='#' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+																		<div class="comment-author"><a href='#' rel='external nofollow' class='url'>Mauro Salvatore</a><span><a href="#" title="Permalink to this comment">Sept 1, 2019</a></span></div>
 
-																		<p>Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+																		<p>Posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
 
 																		<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
@@ -399,7 +259,7 @@
 																<div class="comment-author vcard">
 
 													<span class="comment-avatar clearfix">
-													<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
+													<img alt='' src='images/userlog.jpg' class='avatar avatar-60 photo' height='60' width='60' /></span>
 
 																</div>
 
@@ -407,71 +267,9 @@
 
 															<div class="comment-content clearfix">
 
-																<div class="comment-author"><a href='http://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
+																<div class="comment-author"><a href='images/authors/1.jpg' rel='external nofollow' class='url'>Janne Doe</a><span><a href="#" title="Permalink to this comment">Sept 2, 2019</a></span></div>
 
-																<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-																<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
-
-															</div>
-
-															<div class="clear"></div>
-
-														</div>
-
-													</li>
-
-													<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
-
-														<div id="comment-2" class="comment-wrap clearfix">
-
-															<div class="comment-meta">
-
-																<div class="comment-author vcard">
-
-													<span class="comment-avatar clearfix">
-													<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
-
-																</div>
-
-															</div>
-
-															<div class="comment-content clearfix">
-
-																<div class="comment-author"><a href='http://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
-
-																<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
-
-																<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
-
-															</div>
-
-															<div class="clear"></div>
-
-														</div>
-
-													</li>
-
-													<li class="comment byuser comment-author-_smcl_admin even thread-odd thread-alt depth-1" id="li-comment-2">
-
-														<div id="comment-2" class="comment-wrap clearfix">
-
-															<div class="comment-meta">
-
-																<div class="comment-author vcard">
-
-													<span class="comment-avatar clearfix">
-													<img alt='' src='http://1.gravatar.com/avatar/30110f1f3a4238c619bcceb10f4c4484?s=60&amp;d=http%3A%2F%2F1.gravatar.com%2Favatar%2Fad516503a11cd5ca435acc9bb6523536%3Fs%3D60&amp;r=G' class='avatar avatar-60 photo' height='60' width='60' /></span>
-
-																</div>
-
-															</div>
-
-															<div class="comment-content clearfix">
-
-																<div class="comment-author"><a href='http://themeforest.net/user/semicolonweb' rel='external nofollow' class='url'>SemiColon</a><span><a href="#" title="Permalink to this comment">April 25, 2012 at 1:03 am</a></span></div>
-
-																<p>Integer posuere erat a ante venenatis dapibus posuere velit aliquet.</p>
+																<p>Ante venenatis dapibus posuere velit aliquet.</p>
 
 																<a class='comment-reply-link' href='#'><i class="icon-reply"></i></a>
 
@@ -503,43 +301,34 @@
 											</div>
 
 									</div>
-
 								</div>
-
 						</div>
 
-
-
-							<div class="sidebar nobottommargin col_last pt-2 clearfix">
+					<div class="sidebar nobottommargin col_last pt-2 clearfix">
 								<div class="sidebar-widgets-wrap">
-
 									<div class="widget  clearfix">
 										<h4 class="center">Instructor</h4>
 										<div class="team">
 											<div class="team-image">
-												<center><img src="images/instructor.jpg" class="img-circle center" style="max-width:128px;" alt="Gunther Beard"></center>
+												<center><img src="images/instructor.jpg" class="img-circle center" style="max-width:128px;" alt="Mauro Salvatore"></center>
 											</div>
 											<div class="team-desc">
-												<h4 class="team-title pt-3 mb-0 t500 nott">Gunther Beard<br/><small>Volunteers</small></h4>
+												<h4 class="team-title pt-3 mb-0 t500 nott">Mauro Salvatore<br/><small>Instructor</small></h4>
 											</div>
 										</div>
-
 									</div>
 
-
 								</div>
-
-								<div class="clearfix"></div>
-
 							</div>
-
-						</div>
-					</div>
-
-					</div>
 
 				</div>
 			</div>
+
+
+			</div>
+
+
+
 			<div class="col-lg-3">
 				<div class="position-sticky fixed full-screen d-flex flex-column" style="top:0; border-left:1px solid #eaeaea; background: #ffffff; min-height: 300px" data-height-md="300">
 					<div class="accordion accordion-bg  clearfix" data-state="open">
@@ -1023,7 +812,7 @@
 
 	<!-- Footer
     ============================================= -->
-	<footer id="footer" class="mt-5 noborder" style="background-color: #155BBC; padding-top: 80px">
+	<footer id="footer" class="noborder" style="background-color: #155BBC; padding-top: 80px">
 
 		<div class="container">
 
@@ -1039,10 +828,10 @@
 							<h4 class="ls0 mb-4 nott text-white">Features</h4>
 
 							<ul class="list-unstyled ml-0">
-								<li class="mb-2"><a href="#">Help Center</a></li>
-								<li class="mb-2"><a href="#">Paid with Moblie</a></li>
-								<li class="mb-2"><a href="#">Status</a></li>
-								<li class="mb-2"><a href="#">Contact Support</a></li>
+								<li class="mb-2"><a href="#">Teach on kinara</a></li>
+								<li class="mb-2"><a href="#">Learn on Kinara</a></li>
+								<li class="mb-2"><a href="#">Forum</a></li>
+								<li class="mb-2"><a href="#">Affiliate</a></li>
 							</ul>
 
 						</div>
@@ -1053,10 +842,10 @@
 							<h4 class="ls0 mb-4 nott text-white">Support</h4>
 
 							<ul class="list-unstyled ml-0">
-								<li class="mb-2"><a href="#">Home</a></li>
-								<li class="mb-2"><a href="#">About</a></li>
-								<li class="mb-2"><a href="#">FAQs</a></li>
-								<li class="mb-2"><a href="#">Support</a></li>
+								<li class="mb-2"><a href="#">Membership</a></li>
+								<li class="mb-2"><a href="#">Help Center</a></li>
+								<li class="mb-2"><a href="#">FAQ</a></li>
+								<li class="mb-2"><a href="#">Contact Support</a></li>
 							</ul>
 
 						</div>
@@ -1064,12 +853,12 @@
 					<div class="col-lg-2 col-md-2 col-6">
 						<div class="widget clearfix">
 
-							<h4 class="ls0 mb-4 nott text-white">Trending</h4>
+							<h4 class="ls0 mb-4 nott text-white">Explore</h4>
 
 							<ul class="list-unstyled ml-0">
-								<li class="mb-2"><a href="#">Shop</a></li>
-								<li class="mb-2"><a href="#">Portfolio</a></li>
-								<li class="mb-2"><a href="#">Blog</a></li>
+								<li class="mb-2"><a href="#">Top Course</a></li>
+								<li class="mb-2"><a href="#">Featured Course</a></li>
+								<li class="mb-2"><a href="#">Editor's Picks</a></li>
 							</ul>
 
 						</div>
@@ -1080,10 +869,9 @@
 							<h4 class="ls0 mb-4 nott text-white">Get to Know us</h4>
 
 							<ul class="list-unstyled ml-0">
-								<li class="mb-2"><a href="#">Corporate</a></li>
-								<li class="mb-2"><a href="#">Agency</a></li>
-								<li class="mb-2"><a href="#">eCommerce</a></li>
-								<li class="mb-2"><a href="#">Personal</a></li>
+								<li class="mb-2"><a href="#">For Government</a></li>
+								<li class="mb-2"><a href="#">For Corporate</a></li>
+								<li class="mb-2"><a href="#">For Community</a></li>
 							</ul>
 
 						</div>
@@ -1091,7 +879,7 @@
 
 					<div class="col-lg-4 col-md-4">
 						<a href="index.html"><img src="images/logo-footer.png" alt="Logo Footer" class="mb-4" height="20"></a>
-						<p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+						<p class="text-white-50">Lorem ipsum dolor sit amet consectetur.</p>
 						<a href="#" class="social-icon si-small si-light si-facebook" title="Facebook">
 							<i class="icon-facebook"></i>
 							<i class="icon-facebook"></i>
@@ -1099,10 +887,6 @@
 						<a href="#" class="social-icon si-small si-light si-twitter" title="Twitter">
 							<i class="icon-twitter"></i>
 							<i class="icon-twitter"></i>
-						</a>
-						<a href="#" class="social-icon si-small si-light si-github" title="Github">
-							<i class="icon-github"></i>
-							<i class="icon-github"></i>
 						</a>
 						<a href="#" class="social-icon si-small si-light si-instagram" title="instagram">
 							<i class="icon-instagram"></i>

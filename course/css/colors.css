@@ -5,14 +5,13 @@
 -----------------------------------------------------------------*/
 
 
-::selection { background: #267DF4; }
+::selection { background: #267DF4 !important; }
 
-::-moz-selection { background: #267DF4; }
+::-moz-selection { background: #267DF4 !important; }
 
-::-webkit-selection { background: #267DF4; }
+::-webkit-selection { background: #267DF4 !important; }
 
 
-a,
 h1 > span:not(.nocolor):not(.badge),
 h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),
@@ -72,7 +71,7 @@ h6 > span:not(.nocolor):not(.badge),
 .overlay-menu #primary-menu.dark > ul > li.current > a,
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
-.nav-tree li.active > a { color: #267DF4 !important; }
+.nav-tree li.active > a { color: #267DF4; }
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -141,7 +140,7 @@ input.switch-toggle-round:checked + label:before,
 .owl-carousel .owl-nav [class*=owl-]:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { background-color: #267DF4 !important; }
+.page-link:focus { background-color: #267DF4; }
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
@@ -198,7 +197,7 @@ input.switch-toggle-round:checked + label:before,
 .tagcloud a:hover,
 .page-item.active .page-link,
 .page-link:hover,
-.page-link:focus { border-color: #267DF4 !important; }
+.page-link:focus { border-color: #267DF4; }
 
 .fbox-effect.fbox-dark .fbox-icon i:after,
 .dark .fbox-effect.fbox-dark .fbox-icon i:after { box-shadow: 0 0 0 2px #267DF4; }
@@ -217,7 +216,7 @@ input.switch-toggle-round:checked + label:before,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li.current a,
 	#primary-menu ul ul li:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
-	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #267DF4 !important; }
+	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #267DF4; }
 
 	#page-menu nav { background-color: #267DF4; }
 
