@@ -549,7 +549,7 @@ ul.list-numbers li {
 
 .rating-stars i { color: #f4c150; }
 
-.course-card .card-title a { color: #333; }
+.course-card .card-title a { color: #333; line-height: 25px}
 
 .course-card .card-title a:hover { color: var(--themecolor); }
 
@@ -794,4 +794,6 @@ ul.list-numbers li {
 .user-cpt a:hover {font-size:16px; color:#007bff !important;font-weight:600 !important;text-decoration: none}
 .user-cpt a:visited{font-size:16px; color:#333 !important;font-weight:600 !important;text-decoration: none}
 .user-cpt p{color:#666}
+
+.lt15 {line-height: 25px}
 
