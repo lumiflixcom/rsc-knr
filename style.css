@@ -1,6 +1,6 @@
 /*-----------------------------------------------------------------------------------
 
-	Theme Name: Canvas
+	Theme Name: Kinara Multi-Niche HTML
 	Theme URI: http://themes.semicolonweb.com/html/canvas
 	Description: The Multi-Purpose Template
 	Author: SemiColonWeb
@@ -174,6 +174,7 @@ body {
 
 a {
 	text-decoration: none !important;
+	-webkit-tap-highlight-color: transparent !important;
 }
 
 a:hover { color: #222; }
@@ -1246,13 +1247,12 @@ body.no-superfish #primary-menu li:hover > .mega-menu-content { display: block; 
 
 #primary-menu ul ul li > a {
 	font-size: 12px;
-	font-weight: 700;
+	font-weight: 600;
 	color: #666;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	border: 0;
 	letter-spacing: 0;
-	font-family: 'Lato', sans-serif;
 	-webkit-transition: all .2s ease-in-out;
 	-o-transition: all .2s ease-in-out;
 	transition: all .2s ease-in-out;
@@ -4962,7 +4962,6 @@ body.device-touch.device-xs .portfolio-notitle .portfolio-overlay { display: non
 	padding: 30px 0;
 	text-align: center;
 	color: #444;
-	font-family: 'Raleway', sans-serif;
 	text-transform: uppercase;
 	letter-spacing: 1px;
 	font-size: 24px;
@@ -5509,7 +5508,7 @@ body:not(.device-touch) .entry-link {
 .commentlist {
 	list-style: none;
 	padding-bottom: 50px;
-	margin: 0 0 50px;
+	margin: 0 0 30px;
 	border-bottom: 1px solid #EEE;
 }
 
@@ -5567,7 +5566,9 @@ body:not(.device-touch) .entry-link {
 }
 
 .commentlist li .comment-content p,
-.pingback p { margin: 20px 0 0 0; }
+.pingback p { margin: 5px 0 0 0; }
+
+.comment-content p, .anc { font-size:14px }
 
 .commentlist li .comment-content { padding: 0 0 0 15px; }
 
@@ -5578,12 +5579,9 @@ body:not(.device-touch) .entry-link {
 }
 
 .comment-avatar {
-	position: absolute;
 	top: 15px;
 	left: -35px;
 	padding: 4px;
-	background: #FFF;
-	border: 1px solid #E5E5E5;
 	border-radius: 50%;
 }
 
@@ -5614,7 +5612,6 @@ body:not(.device-touch) .entry-link {
 .comment-content .comment-author span a {
 	font-size: 12px;
 	font-weight: normal;
-	font-family: 'Crete Round', serif;
 	font-style: italic;
 	color: #AAA;
 }
@@ -6583,11 +6580,7 @@ body:not(.device-sm):not(.device-xs) .countdown.countdown-large.coming-soon .cou
 	line-height: 40px;
 	background-color: #1ABC9C;
 	color: #FFF;
-	font-weight: 700;
-	text-transform: uppercase;
-	letter-spacing: 1px;
 	border: none;
-	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }
 
 body:not(.device-touch) .button {
@@ -9034,6 +9027,7 @@ body:not(.device-touch) .social-icon i {
 .acc_content {
 	position: relative;
 	padding: 0 0 15px 20px;
+	font-size:14.5px;
 }
 
 
@@ -11101,12 +11095,7 @@ fieldset[disabled] .sm-form-control {
 
 label {
 	display: inline-block;
-	font-size: 13px;
-	font-weight: 700;
-	font-family: 'Raleway', sans-serif;
-	text-transform: uppercase;
-	letter-spacing: 1px;
-	color: #555;
+	font-size: 16px;
 	margin-bottom: 10px;
 	cursor: pointer;
 }
@@ -12086,7 +12075,6 @@ button.toast-close-button {
 
 #copyrights {
 	padding: 40px 0;
-	background-color: #DDD;
 	font-size: 14px;
 	line-height: 1.8;
 }
@@ -13920,6 +13908,9 @@ body:not(.no-transition) #wrapper,
 	-webkit-text-stroke: 0px !important;
 	text-shadow: none !important;
 }
+
+.btn-rd{ text-align:center; -webkit-border-radius: 35px !important; -moz-border-radius: 35px !important; -ms-border-radius: 35px !important; -o-border-radius: 35px !important; border-radius: 35px !important; min-width:120px }
+
 
 
 

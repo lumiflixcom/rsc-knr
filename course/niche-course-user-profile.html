@@ -74,58 +74,93 @@
 <div id="wrapper" class="clearfix">
 
 	<!--  HEADER ============================================= -->
-	<header id="header" class="sticky-style-2">
-		<div class="container clearfix">
+	<header class="header sticky-style-2">
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row">
+						<div class="top_bar_contact_item">
+							<a href="#"><i class="icon-line2-call-out"></i> +62 111 222 333</a>
+						</div>
+						<div class="top_bar_contact_item">
+							<a href="#"><i class="icon-chat-3"></i> Live Chat</a>
+						</div>
+						<div class="top_bar_content ml-auto">
+							<div class="top_bar_user">
+								<div class="top_bar_contact_item">
+									<a href="#"><i class="icon-google-play"></i> Google Play</a>
+								</div>
+								<div class="top_bar_contact_item">
+									<a href="#"><i class="icon-apple"></i> App Store</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Header Main -->
 
-			<nav class="navbar navbar-expand-lg p-0 m-0">
-				<div id="logo">
-					<a href="niche-course-index.html" class="standard-logo" data-sticky-logo="images/logo-sticky.png"><img src="images/logo.png" alt="Kinara"></a>
-					<a href="niche-course-index.html" class="retina-logo" data-sticky-logo="images/logo-sticky@2x.png"><img src="images/logo@2x.png" alt="Kinara"></a>
+		<div class="header_main">
+			<div class="container">
+				<div class="row">
+					<!-- Logo -->
+					<div class="col-lg-2 col-sm-3 col-3 order-1">
+						<div class="logo_container">
+							<div class="logo"><a href="niche-course-index.html"><img src="images/logo@2x.png" alt="Kinara" width="150"></a></div>
+						</div>
+					</div> <!-- Search -->
+					<div class="col-lg-6 col-md-12 col-12 order-lg-2 order-3 text-lg-left text-right">
+						<div class="header_search">
+							<div class="header_search_content">
+								<div class="header_search_form_container">
+									<form class="searchbar input-group mb-4">
+										<input type="search" placeholder="What're you searching for?" class="form-control" />
+										<div class="input-group-append">
+											<button  type="submit" class="btn btn-primary"><i class="icon-line-search"></i></button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div> <!-- End Search -->
+
+					<!-- Widget Top -->
+					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+						<div class="widtop_cart d-flex flex-row align-items-center justify-content-end">
+							<div class="widtop d-flex flex-row align-items-center justify-content-end">
+								<div class="widtop_icon"><i class="icon-line2-users icon-thumb"></i></div>
+								<div class="widtop_content">
+									<div class="widtop_text"><a href="#">Member</a></div>
+									<div class="widtop_count">1136+</div>
+								</div>
+							</div> <!-- Cart -->
+							<div class="widtop d-flex flex-row align-items-center justify-content-end">
+								<div class="widtop_icon"><i class="icon-line2-notebook icon-thumb"></i></div>
+								<div class="widtop_content">
+									<div class="widtop_text"><a href="#">Courses</a></div>
+									<div class="widtop_count">442+</div>
+								</div>
+							</div> <!-- Cart -->
+							<div class="cart">
+								<div class="widtop_cart d-flex flex-row align-items-center justify-content-end">
+									<div class="cart_icon"><i class="icon-line2-handbag icon-thumb"></i>
+										<div class="cart_count"><span>3</span></div>
+									</div>
+									<div class="cart_content">
+										<div class="cart_text"><a href="#">Cart</a></div>
+										<div class="cart_price">$185</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- End Widget Top -->
 				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-line-menu"></span>
-				</button>
-				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Home
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
-								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Course
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-list-minimalist.html">Course List Minimalist</a>
-								<a class="dropdown-item" href="niche-course-list-modern.html">Course List Modern</a>
-								<a class="dropdown-item" href="niche-course-single.html">Course Single</a>
-								<a class="dropdown-item" href="niche-course-enroll.html">Course Enroll</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Members
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-user-profile.html">Profile</a>
-								<a class="dropdown-item" href="niche-course-login-page.html">Login Page</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+			</div>
+		</div> <!-- Main Navigation -->
 
 		<!-- Header Light ============================================= -->
-		<div id="header-wrap" class="bg-light">
+		<div id="header-small" class="bg-light">
 			<!-- Category Navigation ============================================= -->
 			<nav id="primary-menu" class="with-arrows style-2">
 				<div class="container clearfix">
@@ -164,7 +199,6 @@
 										<li><a href="#"><div>Others</div></a></li>
 									</ul>
 								</li>
-
 								<li><a href="#"><div><i class="icon-laptop1"></i>IT & Software</div></a>
 									<ul>
 										<li><a href="#"><div>All IT & Software Training</div></a>
@@ -202,20 +236,39 @@
 								</li>
 							</ul>
 						</li>
+						<li><a href="#"><div> Home</div></a>
+							<ul>
+								<li><a href="niche-course-index.html"><div>Home Layout 1</div></a></li>
+								<li><a href="niche-course-index-2.html"><div>Home Layout 2</div></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div> Course</div></a>
+							<ul>
+								<li><a href="niche-course-list-minimalist.html"><div>Course List Minimalist</div></a></li>
+								<li><a href="niche-course-list-modern.html"><div>Course List Modern</div></a></li>
+								<li><a href="niche-course-single.html"><div>Course Single</div></a></li>
+								<li><a href="niche-course-enroll.html"><div>Course Enroll</div></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div> Members</div></a>
+							<ul>
+								<li><a href="niche-course-user-profile.html"><div>Profile</div></a></li>
+								<li><a href="niche-course-login-page.html"><div>Login Page</div></a></li>
+							</ul>
+						</li>
+						<li><a href="niche-course-instructor-list.html"><div> Instructor</div></a></li>
 					</ul>
 
 					<!-- Header Widget  ============================================= -->
 					<div class="header-buttons side-panel-trigger" id="top-search">
-						<a href="#"  style="color:#333;" ><img src="images/userlog.jpg" class="img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-7px !important; max-width: 35px;"></a>
-						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:48px"  class="d-none  d-sm-none  d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
-						<form action="#" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
-						</form>
-					</div>
+						<a href="#"  style="color:#333;"><img src="images/userlog.jpg" class="img-circle img-thumbnail user-thumb-2 notopmargin nobottommargin" alt="Avatar"></a>
+
+					</div><!-- End Header Widget  ============================================= -->
 				</div>
 			</nav><!-- End Category Navigation  -->
 		</div><!--  End Header Light  ============================================= -->
-	</header><!-- END HEADER  -->
+	</header>
+	<!-- END HEADER  -->
 
 
 	<!-- CONTENT  -->
@@ -224,14 +277,11 @@
 				<div class="row clearfix pt-5">
 					<div class="col-md-12">
 						<div class="row clearfix">
-							<div class="col-10">
+							<div class="col-12">
 								<img src="images/userlog.jpg" class="alignleft img-circle img-thumbnail notopmargin nobottommargin" alt="Avatar" style="margin-top:-13px !important;max-width: 128px;">
 									<div class="nobottomborder" style="margin-top:30px !important">
 										<h3 class="t500">Welcome back,<br/>Janne Doe</h3>
 									</div>
-							</div>
-							<div class="col-2">
-								<a class="button button-rounded button-blue t400 ls1  clearfix text-white" style="border-radius:34px; margin-top: 40px"><i class="icon-settings2"></i> <span class="d-none d-sm-inline-block d-sm-none d-md-inline-block d-md-none d-lg-inline-block">Setting</span></a>
 							</div>
 						</div>
 						<div class="clear"></div>
@@ -248,70 +298,69 @@
 										<div class="tab-content clearfix" id="tab-feeds">
 											<div class="row mt-2">
 												<div class="container">
-													<div id="oc-products" class="owl-carousel products-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="1" data-items-sm="2" data-items-md="3" data-items-lg="4">
-
-														<!-- Course 1 ============================================= -->
+													<div id="oc-products" class="owl-carousel products-carousel carousel-widget" data-margin="20" data-nav="true" data-pagi="false" data-items-xs="2" data-items-sm="2" data-items-md="3" data-items-lg="4">
+														<!-- Featured 1 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-warning">Free</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/1.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
-																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Complete Python Bootcamp in Python 3</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Development</a></p>
+																	<a href="niche-course-single.html"><img src="images/course/1.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
+																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Complete Python Bootcamp in Python</a></h4>
+																		<p class="mb-2 product-title-sub t400"><a href="#">Development</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 																</div>
 															</div>
 														</div>
 
-														<!-- Course 2 ============================================= -->
+														<!-- Featured 2 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-price"><i class="icon-dollar"></i> 60</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/5.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
+																	<a href="niche-course-single.html"><img src="images/course/5.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
 																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Complete Blender Creator: Learn 3D Modelling</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Design</a></p>
+																		<p class="mb-2 product-title-sub t400"><a href="#">Design</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 																</div>
 															</div>
 														</div>
 
-														<!-- Course 3 ============================================= -->
+														<!-- Featured 3 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-warning">Free</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/3.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
+																	<a href="niche-course-single.html"><img src="images/course/3.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
 																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Complete Financial Analyst Training & Investing</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Business</a></p>
+																		<p class="mb-2 product-title-sub t400"><a href="#">Business</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 																</div>
 															</div>
 														</div>
 
-														<!-- Course 4 ============================================= -->
+														<!-- Featured 4 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-price"><i class="icon-dollar"></i> 60</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/2.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
+																	<a href="niche-course-single.html"><img src="images/course/2.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
 																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Java Programming Masterclass for Developers</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Development</a></p>
+																		<p class="mb-2 product-title-sub t400"><a href="#">Development</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 
@@ -319,39 +368,40 @@
 															</div>
 														</div>
 
-														<!-- Course 5 ============================================= -->
+														<!-- Featured 5 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-price"><i class="icon-dollar"></i> 60</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/4.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
+																	<a href="niche-course-single.html"><img src="images/course/4.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
 																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">The Ultimate Drawing Course for Beginer</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Design</a></p>
+																		<p class="mb-2 product-title-sub t400"><a href="#" >Design</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 																</div>
 															</div>
 														</div>
 
-														<!-- Course 6 ============================================= -->
+														<!-- Featured 6 ============================================= -->
 														<div class="oc-item">
 															<div class="product iproduct clearfix">
 																<div class="label-price bg-price"><i class="icon-dollar"></i> 60</div>
 																<div class="hover-effect">
-																	<a href="niche-course-single.html"><img src="images/course/6.jpg" alt="Video Image"></a>
-																	<div class="text-overlay pb-4">
+																	<a href="niche-course-single.html"><img src="images/course/6.jpg" class="cd-rounded" alt="Video Image"></a>
+																	<div class="text-overlay pb-4 cd-rounded">
 																		<h4 class="text-white t500 mb-2"><a href="niche-course-single.html" class="text-white">Arts Therapy - Arts Therapy For Self Healing</a></h4>
-																		<p class="mb-2 card-title-sub t400"><a href="#" class="text-white">Personal Development</a></p>
+																		<p class="mb-2 product-title-sub t400"><a href="#">Personal Development</a></p>
 																		<div class="float-left text-white rating-stars mb-2"><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star3"></i><i class="icon-star-half"></i> <span class="sb-count-white">4.4</span></div>
-																		<a href="#" class="float-right text-white position-relative"><i class="icon-line2-users"></i> <span class="sb-count-white">458</span></a>
+																		<a href="#" class="float-right text-white position-relative"><i class="icon-like"></i> <span class="sb-count-white">458</span></a>
 																		<div class="clearfix"></div>
 																	</div>
 																</div>
 															</div>
 														</div>
+
 													</div>
 												</div>
 											</div>
@@ -471,11 +521,11 @@
 											<!-- Comment Form -->
 											<form class="clearfix" action="#" method="post" id="commentform">
 												<div class="col_full">
-													<label for="comment">Write Something</label>
+													<h4 class="t300 pb-3">Write Something</h4>
 													<textarea name="comment" cols="58" rows="7" tabindex="4" class="sm-form-control"></textarea>
 												</div>
 												<div class="col_full nobottommargin">
-													<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-rounded button-blue t400 ls1 track-list clearfix text-white" style="border-radius: 34px"><i class="icon-line2-paper-plane"></i> Submit</button>
+													<button name="submit" type="submit" id="submit-button" tabindex="5" value="Submit" class="button button-rounded button-blue t400 ls1 track-list clearfix text-white"><i class="icon-line2-paper-plane"></i> Submit</button>
 												</div>
 											</form> <!-- End Comment Form -->
 

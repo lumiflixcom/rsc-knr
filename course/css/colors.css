@@ -11,13 +11,14 @@
 
 ::-webkit-selection { background: #267DF4 !important; }
 
-
+.bg-blue{background: linear-gradient(90deg, rgba(47,70,228,1) 0%, rgba(55,176,209,1) 100%); color:#f2f2f2}
 h1 > span:not(.nocolor):not(.badge),
 h2 > span:not(.nocolor):not(.badge),
 h3 > span:not(.nocolor):not(.badge),
 h4 > span:not(.nocolor):not(.badge),
 h5 > span:not(.nocolor):not(.badge),
 h6 > span:not(.nocolor):not(.badge),
+.color,
 .header-extras li .he-text span,
 #primary-menu ul li:hover > a,
 #primary-menu ul li.current > a,
@@ -26,12 +27,7 @@ h6 > span:not(.nocolor):not(.badge),
 #primary-menu ul ul li:hover > a,
 #primary-menu ul li .mega-menu-content.style-2 ul.mega-menu-column > li.mega-menu-title > a:hover,
 #top-cart > a:hover,
-.top-cart-action span.top-checkout-price,
 .breadcrumb a:hover,
-.portfolio-filter li a:hover,
-.portfolio-desc h3 a:hover,
-.portfolio-overlay a:hover,
-#portfolio-navigation a:hover,
 .entry-title h2 a:hover,
 .entry-meta li a:hover,
 .post-timeline .entry:hover .entry-timeline,
@@ -49,21 +45,10 @@ h6 > span:not(.nocolor):not(.badge),
 .feature-box.fbox-border .fbox-icon img,
 .feature-box.fbox-plain .fbox-icon i,
 .feature-box.fbox-plain .fbox-icon img,
-.process-steps li.active h5,
-.process-steps li.ui-tabs-active h5,
 .team-title span,
 .pricing-box.best-price .pricing-price,
-.btn-link,
-.dark .post-timeline .entry:hover .entry-timeline,
-.dark .post-timeline .entry:hover .timeline-divider,
-.clear-rating-active:hover  { color: #267DF4; }
-
-.color,
-.top-cart-item-desc a:hover,
-.portfolio-filter.style-3 li.activeFilter a,
-.faqlist li a:hover,
-.tagcloud a:hover,
-.dark .top-cart-item-desc a:hover,
+.btn-link,.blue,
+.clear-rating-active:hover,.course-card .card-title a:hover, .wishlist_text a:hover,.cart_text a:hover,
 .iconlist-color li i,
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li:hover > a,
 .dark.overlay-menu #header-wrap:not(.not-dark) #primary-menu > ul > li.current > a,
@@ -72,6 +57,7 @@ h6 > span:not(.nocolor):not(.badge),
 .nav-tree li:hover > a,
 .nav-tree li.current > a,
 .nav-tree li.active > a { color: #267DF4; }
+
 
 #primary-menu.style-3 > ul > li.current > a,
 #primary-menu.sub-title > ul > li:hover > a,
@@ -83,14 +69,10 @@ h6 > span:not(.nocolor):not(.badge),
 #page-menu ul ul,
 #page-menu.dots-menu nav li.current a,
 #page-menu.dots-menu nav li div,
-.portfolio-filter li.activeFilter a,
-.portfolio-filter.style-4 li.activeFilter a:after,
-.portfolio-shuffle:hover,
 .entry-link:hover,
-.sale-flash,
+.cart_count,
 .button:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime),
 .button.button-dark:hover,
-.promo.promo-flat,
 .feature-box .fbox-icon i,
 .feature-box .fbox-icon img,
 .fbox-effect.fbox-dark .fbox-icon i:hover,
@@ -100,7 +82,6 @@ h6 > span:not(.nocolor):not(.badge),
 .i-circled:hover,
 ul.tab-nav.tab-nav2 li.ui-state-active a,
 .testimonial .flex-control-nav li a,
-.skills li .progress,
 .owl-carousel .owl-dots .owl-dot,
 #gotoTop:hover,
 .dark .button-dark:hover,
@@ -120,18 +101,13 @@ ul.tab-nav.tab-nav2 li.ui-state-active a,
 .checkbox-style:checked + .checkbox-style-2-label:before,
 .checkbox-style:checked + .checkbox-style-3-label:before,
 .radio-style:checked + .radio-style-3-label:before,
-.irs-bar,
-.irs-from,
-.irs-to,
-.irs-single,
 input.switch-toggle-flat:checked + label,
 input.switch-toggle-flat:checked + label:after,
 input.switch-toggle-round:checked + label:before,
 .bootstrap-switch .bootstrap-switch-handle-on.bootstrap-switch-themecolor,
 .bootstrap-switch .bootstrap-switch-handle-off.bootstrap-switch-themecolor,
-.entry:after { background-color: #267DF4; }
-
-.bgcolor,
+.entry:after,.mfp-iframe-holder .mfp-close,
+.testi-stars i, .bgcolor,
 .button.button-3d:not(.button-white):not(.button-dark):not(.button-border):not(.button-black):not(.button-red):not(.button-teal):not(.button-yellow):not(.button-green):not(.button-brown):not(.button-aqua):not(.button-purple):not(.button-leaf):not(.button-pink):not(.button-blue):not(.button-dirtygreen):not(.button-amber):not(.button-lime):hover,
 .process-steps li.active a,
 .process-steps li.ui-tabs-active a,
@@ -144,21 +120,10 @@ input.switch-toggle-round:checked + label:before,
 
 #primary-menu.style-4 > ul > li:hover > a,
 #primary-menu.style-4 > ul > li.current > a,
-.top-cart-item-image:hover,
-.portfolio-filter.style-3 li.activeFilter a,
-.post-timeline .entry:hover .entry-timeline,
-.post-timeline .entry:hover .timeline-divider,
-.cart-product-thumbnail img:hover,
-.feature-box.fbox-outline .fbox-icon,
+.top-cart-item-image:hover, .feature-box.fbox-outline .fbox-icon,
 .feature-box.fbox-border .fbox-icon,
-.dark .top-cart-item-image:hover,
-.dark .post-timeline .entry:hover .entry-timeline,
-.dark .post-timeline .entry:hover .timeline-divider,
-.dark .cart-product-thumbnail img:hover,
 .heading-block.border-color:after { border-color: #267DF4; }
 
-.top-links ul ul,
-.top-links ul div.top-link-section,
 #primary-menu ul ul:not(.mega-menu-column),
 #primary-menu ul li .mega-menu-content,
 #primary-menu.style-6 > ul > li > a:after,
@@ -172,10 +137,7 @@ input.switch-toggle-round:checked + label:before,
 .dark #primary-menu:not(.not-dark) ul li .mega-menu-content.style-2,
 #primary-menu.dark ul li .mega-menu-content.style-2,
 .dark #top-cart .top-cart-content,
-.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a,
-.irs-from:after,
-.irs-single:after,
-.irs-to:after { border-top-color: #267DF4; }
+.tabs.tabs-tb ul.tab-nav li.ui-tabs-active a { border-top-color: #267DF4; }
 
 #page-menu.dots-menu nav li div:after,
 .title-block { border-left-color: #267DF4; }
@@ -209,7 +171,6 @@ input.switch-toggle-round:checked + label:before,
 
 
 @media only screen and (max-width: 991px) {
-
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li:hover a,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > ul > li.current a,
 	body:not(.dark) #header:not(.dark) #header-wrap:not(.dark) #primary-menu > div > ul > li:hover a,
@@ -217,13 +178,5 @@ input.switch-toggle-round:checked + label:before,
 	#primary-menu ul ul li:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title:hover > a,
 	#primary-menu ul li .mega-menu-content.style-2 > ul > li.mega-menu-title > a:hover { color: #267DF4; }
-
 	#page-menu nav { background-color: #267DF4; }
-}
-
-
-@media only screen and (max-width: 767px) {
-
-	.portfolio-filter li a:hover { color: #267DF4; }
-
 }

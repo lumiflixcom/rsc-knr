@@ -73,7 +73,7 @@
 					<input type="password" id="login-form-password" name="login-form-password" value="" class="form-control" />
 				</div>
 				<div class="col_full nobottommargin">
-					<button class="button button-rounded button-border-thin nomargin" id="login-form-submit" name="login-form-submit" style="border-radius: 34px;" value="login">Login</button>
+					<button class="button button-rounded button-border-thin nomargin" id="login-submit" name="login-form-submit"  value="login">Login</button>
 				</div>
 			</form>
 		</div>
@@ -84,58 +84,93 @@
 <div id="wrapper" class="clearfix">
 
 	<!--  HEADER ============================================= -->
-	<header id="header" class="sticky-style-2">
-		<div class="container clearfix">
+	<header class="header sticky-style-2">
+		<!-- Top Bar -->
+		<div class="top_bar">
+			<div class="container">
+				<div class="row">
+					<div class="col d-flex flex-row">
+						<div class="top_bar_contact_item">
+							<a href="#"><i class="icon-line2-call-out"></i> +62 111 222 333</a>
+						</div>
+						<div class="top_bar_contact_item">
+							<a href="#"><i class="icon-chat-3"></i> Live Chat</a>
+						</div>
+						<div class="top_bar_content ml-auto">
+							<div class="top_bar_user">
+								<div class="top_bar_contact_item">
+									<a href="#"><i class="icon-google-play"></i> Google Play</a>
+								</div>
+								<div class="top_bar_contact_item">
+									<a href="#"><i class="icon-apple"></i> App Store</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div> <!-- Header Main -->
 
-			<nav class="navbar navbar-expand-lg p-0 m-0">
-				<div id="logo">
-					<a href="niche-course-index.html" class="standard-logo" data-sticky-logo="images/logo-sticky.png"><img src="images/logo.png" alt="Kinara"></a>
-					<a href="niche-course-index.html" class="retina-logo" data-sticky-logo="images/logo-sticky@2x.png"><img src="images/logo@2x.png" alt="Kinara"></a>
+		<div class="header_main">
+			<div class="container">
+				<div class="row">
+					<!-- Logo -->
+					<div class="col-lg-2 col-sm-3 col-3 order-1">
+						<div class="logo_container">
+							<div class="logo"><a href="niche-course-index.html"><img src="images/logo@2x.png" alt="Kinara" width="150"></a></div>
+						</div>
+					</div> <!-- Search -->
+					<div class="col-lg-6 col-md-12 col-12 order-lg-2 order-3 text-lg-left text-right">
+						<div class="header_search">
+							<div class="header_search_content">
+								<div class="header_search_form_container">
+									<form class="searchbar input-group mb-4">
+										<input type="search" placeholder="What're you searching for?" class="form-control" />
+										<div class="input-group-append">
+											<button  type="submit" class="btn btn-primary"><i class="icon-line-search"></i></button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div> <!-- End Search -->
+
+					<!-- Widget Top -->
+					<div class="col-lg-4 col-9 order-lg-3 order-2 text-lg-left text-right">
+						<div class="widtop_cart d-flex flex-row align-items-center justify-content-end">
+							<div class="widtop d-flex flex-row align-items-center justify-content-end">
+								<div class="widtop_icon"><i class="icon-line2-users icon-thumb"></i></div>
+								<div class="widtop_content">
+									<div class="widtop_text"><a href="#">Member</a></div>
+									<div class="widtop_count">1136+</div>
+								</div>
+							</div> <!-- Cart -->
+							<div class="widtop d-flex flex-row align-items-center justify-content-end">
+								<div class="widtop_icon"><i class="icon-line2-notebook icon-thumb"></i></div>
+								<div class="widtop_content">
+									<div class="widtop_text"><a href="#">Courses</a></div>
+									<div class="widtop_count">442+</div>
+								</div>
+							</div> <!-- Cart -->
+							<div class="cart">
+								<div class="widtop_cart d-flex flex-row align-items-center justify-content-end">
+									<div class="cart_icon"><i class="icon-line2-handbag icon-thumb"></i>
+										<div class="cart_count"><span>3</span></div>
+									</div>
+									<div class="cart_content">
+										<div class="cart_text"><a href="#">Cart</a></div>
+										<div class="cart_price">$185</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div><!-- End Widget Top -->
 				</div>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-line-menu"></span>
-				</button>
-				<div class="collapse navbar-collapse align-items-end" id="navbarNav">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Home
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-index.html">Home Layout 1</a>
-								<a class="dropdown-item" href="niche-course-index-2.html">Home Layout 2</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Course
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-list-minimalist.html">Course List Minimalist</a>
-								<a class="dropdown-item" href="niche-course-list-modern.html">Course List Modern</a>
-								<a class="dropdown-item" href="niche-course-single.html">Course Single</a>
-								<a class="dropdown-item" href="niche-course-enroll.html">Course Enroll</a>
-							</div>
-						</li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-								Members
-							</a>
-							<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-								<a class="dropdown-item" href="niche-course-user-profile.html">Profile</a>
-								<a class="dropdown-item" href="niche-course-login-page.html">Login Page</a>
-							</div>
-						</li>
-						<li class="nav-item">
-							<a class="nav-link" href="niche-course-instructor-list.html" >Instructor</a>
-						</li>
-					</ul>
-				</div>
-			</nav>
-		</div>
+			</div>
+		</div> <!-- Main Navigation -->
 
 		<!-- Header Light ============================================= -->
-		<div id="header-wrap" class="bg-light">
+		<div id="header-small" class="bg-light">
 			<!-- Category Navigation ============================================= -->
 			<nav id="primary-menu" class="with-arrows style-2">
 				<div class="container clearfix">
@@ -174,7 +209,6 @@
 										<li><a href="#"><div>Others</div></a></li>
 									</ul>
 								</li>
-
 								<li><a href="#"><div><i class="icon-laptop1"></i>IT & Software</div></a>
 									<ul>
 										<li><a href="#"><div>All IT & Software Training</div></a>
@@ -212,20 +246,38 @@
 								</li>
 							</ul>
 						</li>
+						<li><a href="#"><div> Home</div></a>
+							<ul>
+								<li><a href="niche-course-index.html"><div>Home Layout 1</div></a></li>
+								<li><a href="niche-course-index-2.html"><div>Home Layout 2</div></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div> Course</div></a>
+							<ul>
+								<li><a href="niche-course-list-minimalist.html"><div>Course List Minimalist</div></a></li>
+								<li><a href="niche-course-list-modern.html"><div>Course List Modern</div></a></li>
+								<li><a href="niche-course-single.html"><div>Course Single</div></a></li>
+								<li><a href="niche-course-enroll.html"><div>Course Enroll</div></a></li>
+							</ul>
+						</li>
+						<li><a href="#"><div> Members</div></a>
+							<ul>
+								<li><a href="niche-course-user-profile.html"><div>Profile</div></a></li>
+								<li><a href="niche-course-login-page.html"><div>Login Page</div></a></li>
+							</ul>
+						</li>
+						<li><a href="niche-course-instructor-list.html"><div> Instructor</div></a></li>
 					</ul>
 
 					<!-- Header Widget  ============================================= -->
 					<div class="header-buttons side-panel-trigger" id="top-search">
-						<a href="#"  style="color:#333; font-size: 18px" ><i class="icon-user" class="rightmargin-sm"></i></a>
-						<a href="#"  style="color:#333; font-size: 18px; margin-top:-14px; margin-left:38px"  class="d-none  d-sm-none  d-md-none d-lg-block" id="top-search-trigger"><i class="icon-search3"></i></a>
-						<form action="#" method="get">
-							<input type="text" name="q" class="form-control" value="" placeholder="Enter Keyword and Press Enter..">
-						</form>
-					</div>
+						<a href="#"  style="color:#333; font-size: 18px;" ><i class="icon-user rightmargin-sm"></i></a>
+					</div><!-- End Header Widget  ============================================= -->
 				</div>
 			</nav><!-- End Category Navigation  -->
 		</div><!--  End Header Light  ============================================= -->
-	</header><!-- END HEADER  -->
+	</header>
+	<!-- END HEADER  -->
 
 	<!-- Content ============================================= -->
 	<section id="content">
@@ -237,28 +289,28 @@
 						<div class="form-process"></div>
 						<div class="col-lg-8 pr-5 ">
 							<div class="row checkout-form-billing">
-								<div class="col-12">
+								<div class="col-12 mb-3">
 									<h3>Registration</h3>
 								</div>
 								<div class="col-12 form-group">
 									<label>First Name</label>
-									<input type="text" name="checkout-form-billing-name" id="checkout-form-billing-name" class="form-control required" value="" placeholder="">
+									<input type="text" name="checkout-form-billing-name" id="fname" class="form-control required" value="" placeholder="">
 								</div>
 								<div class="col-12 form-group">
 									<label>Last Name</label>
-									<input type="text" name="checkout-form-billing-name" id="checkout-form-billing-name" class="form-control required" value="" placeholder="">
+									<input type="text" name="checkout-form-billing-name" id="lname" class="form-control required" value="" placeholder="">
 								</div>
 								<div class="col-12 form-group">
 									<label>Email</label>
-									<input type="email" name="checkout-form-billing-email" id="checkout-form-billing-email" class="form-control required" value="" placeholder="">
+									<input type="email" name="checkout-form-billing-email" id="email" class="form-control required" value="" placeholder="">
 								</div>
 								<div class="col-12 form-group">
 									<label>Password</label><br>
-									<input type="password" name="checkout-form-billing-company" id="checkout-form-billing-company" class="form-control" value="" placeholder="">
+									<input type="password" name="checkout-form-billing-company" id="passwd" class="form-control" value="" placeholder="">
 								</div>
 
 								<div class="col-12 form-group pt-3">
-									<button class="button button-rounded button-blue nomargin" id="login-form-submit" name="login-form-submit""><i class="icon-paperplane"></i> Register</button>								</div>
+									<button class="button button-rounded button-blue" name="login-form-submit"><i class="icon-paperplane"></i> Register</button>								</div>
 							</div>
 						</div>
 
@@ -276,7 +328,7 @@
 									<input type="password" name="checkout-form-shipping-company" id="checkout-form-shipping-company" class="form-control" value="" placeholder="">
 								</div>
 								<div class="col-12 form-group pt-3">
-									<button class="button button-rounded button-blue nomargin" id="login-form-submit" name="login-form-submit" value="login"><i class="icon-line2-login"></i> Sign in</button>								</div>
+									<button class="button button-rounded button-blue nomargin"  name="login-form-submit" value="login"><i class="icon-line2-login"></i> Sign in</button>								</div>
 							</div>
 						</div>
 					</form>

@@ -41,4 +41,4 @@ label,
 .nav-tree li a,
 .wedding-head .first-name,
 .wedding-head .last-name,
-.font-primary { font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif; }
+.font-primary { font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif !important; }
